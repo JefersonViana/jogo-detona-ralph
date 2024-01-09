@@ -82,3 +82,32 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#start-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#end-box {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  background-color: saddlebrown;
+  justify-content: center;
+  align-items: center;
+}
+
+#end {
+  border-style: none;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#start {
+  border-style: none;
+  padding: 5px;
+  font-size: 2rem;
+}
