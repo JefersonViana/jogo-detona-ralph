@@ -88,7 +88,7 @@ const audioPlay = () => {
 
 const start = () => {
   state.views.start.style.display = 'none';
-  state.actions.score = setInterval(randomSquare, 800);
+  state.actions.score = setInterval(randomSquare, 500);
   state.actions.time = setInterval(countdown, state.values.gameVelocity);
   addEvent();
 };
